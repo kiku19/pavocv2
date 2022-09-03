@@ -8,7 +8,7 @@ function useSize(size)
           setMatch(e.matches);
         });
       },[]);
-      console.log(match);
+      // console.log(match);
       return match;
 }
 

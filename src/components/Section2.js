@@ -22,7 +22,7 @@ const Section2 = () => {
           marginBlockStart: "clamp(70px,5vw,224px)",
         }}
       >
-        <LightButton bg="rgba(0, 147, 98, 0.1)" color="#004B0C"></LightButton>
+        <LightButton styles={{background:"rgba(0, 147, 98, 0.1)",color:"#004B0C"}}>How it works</LightButton>
         <h1
           style={match ? { ...h1, ...h1Mobile, ...head } : { ...h1, ...head }}
         >

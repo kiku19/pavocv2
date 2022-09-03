@@ -1,7 +1,7 @@
 //Components
 import GreenButton from "./GreenButton";
 //hooks
-import useSize800 from "../hooks/useSize";
+import useSize from "../hooks/useSize";
 //image
 import MaskedGroup from "../images/Section1MaskedGroup.png";
 //css
@@ -53,8 +53,8 @@ function Section1() {
   }
 
   const size = "(max-width:800px)"
-  const match = useSize800(size);
-
+  const match = useSize(size);
+  // console.log(match)
   return (
     <div style={match?mainContainerMobile:mainContainer}>
       <div style={match?top:left}>
