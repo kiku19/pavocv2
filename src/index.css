@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin:0px;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: archivoRegular;
+    src: url(./fonts/archivo/archivo.regular.ttf);
+}
+@font-face {
+    font-family: swiss721_Bold;
+    src: url(./fonts/swiss_721/Swiss\ 721\ Bold.otf);
+}
+@font-face {
+    font-family: swiss721_Normal;
+    src: url(./fonts/swiss_721/Swiss\ 721\ Medium.otf);
+}
+
+@font-face {
+    font-family: swiss721_Italic;
+    src: url(./fonts/swiss_721/Swiss\ 721\ Italic.otf);
 }
