@@ -65,3 +65,10 @@ export const h1Mobile = {
 export const img = {
   width: "100%", height: "clamp(300px,35vw,600px)"
 }
+
+export const h3 = {
+  background: "linear-gradient(107.13deg, #29A37A 15.4%, #000000 94.34%)",
+  webkitBackgroundClip: "text",
+  color: "transparent",
+  lineHeight: "1.313rem",
+};

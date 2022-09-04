@@ -5,7 +5,7 @@ import useSize from "../hooks/useSize";
 //image
 import MaskedGroup from "../images/Section1MaskedGroup.png";
 //css
-import { mainContainer,mainContainerMobile, Flex, A_Center,h1,p,h1Mobile,img } from "../css/ObjectsCss.js";
+import { mainContainer,mainContainerMobile, Flex, A_Center,h1,p,h1Mobile,img,h3 } from "../css/ObjectsCss.js";
 
 function Section1() {
 
@@ -14,12 +14,7 @@ function Section1() {
   const pMobile ={
     textAlign:"center"
   }
-  const h3 = {
-    background: "linear-gradient(107.13deg, #29A37A 15.4%, #000000 94.34%)",
-    webkitBackgroundClip: "text",
-    color: "transparent",
-    lineHeight: "1.313rem",
-  };
+
   const title = {
     ...Flex,
     ...A_Center,

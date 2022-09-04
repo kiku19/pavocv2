@@ -8,11 +8,13 @@ const LightButton = ({children,styles}) =>{
         width: "clamp(160px,3vw,240px)",
         height: "clamp(50px,5vw,72px)",
         marginBlockEnd: "clamp(20px,1.6vw,32px)",
-        cursor:"pointer"
+        cursor:"pointer",
+        textWrap:"wrap",
+        border:"none"
       };
     return (
         <>
-        <div style={{...button,...styles}}>{children}</div>
+        <button style={{...button,...styles}}>{children}</button>
         </>
     )
 }

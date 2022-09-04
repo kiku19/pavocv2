@@ -13,6 +13,9 @@ import Section1 from "./components/Section1.js";
 import Carousel from "./components/Carousel.js";
 import Section2 from "./components/Section2.js";
 import Section3 from "./components/Section3";
+import Section4 from "./components/Section4";
+import Section5 from "./components/Section5";
+import Footer from "./components/Footer";
 
 export const userThemeContext = createContext();
 
@@ -22,6 +25,7 @@ const themeColors = {
   primaryLight2: "#29A37A",
   primaryLightest: "#009362",
   primaryDark:"#29493E",
+  primaryLight1Thirty:"#004B0C4D",
   black: "#040404",
   white: "#FFFFFF",
   dark: "false",
@@ -68,6 +72,15 @@ function App() {
         <section>
           <Section3></Section3>
         </section>
+        <section>
+          <Section4></Section4>
+        </section>
+        <section>
+          <Section5></Section5>
+        </section>
+        <footer>
+          <Footer></Footer>
+        </footer>
       </div>
     </userThemeContext.Provider>
   );

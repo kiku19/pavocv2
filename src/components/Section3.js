@@ -9,9 +9,11 @@ import LightButton from "./LightButton.js";
 
 function Section3() {
   const theme = useContext(userThemeContext);
-  const bg = {
+  const greenBg = {
     background: theme.primaryDark,
     width: "100%",
+    maxWidth:"1920px",
+    marginInline:"auto",
     marginBlockStart: "clamp(20px,9.25vw,220px)",
   };
 
@@ -19,7 +21,7 @@ function Section3() {
   // console.log(match);
   return (
     <>
-      <div style={bg}>
+      <div style={greenBg}>
         <div
           style={match?{
             ...mainContainer,

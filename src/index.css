@@ -15,6 +15,10 @@
     font-family: swiss721_Normal;
     src: url(./fonts/swiss_721/Swiss\ 721\ Medium.otf);
 }
+@font-face {
+    font-family: swiss721_Light;
+    src: url(./fonts/swiss_721/Swiss\ 721\ Light.otf);
+}
 
 @font-face {
     font-family: swiss721_Italic;
