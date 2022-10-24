@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pavocv2/static/css/main.46bb28b0.css",
+    "main.js": "/pavocv2/static/js/main.3bcb27b8.js",
+    "static/media/Section3ImageGroup.png": "/pavocv2/static/media/Section3ImageGroup.25101a74bb9b46c7734e.png",
+    "static/media/Section1MaskedGroup.png": "/pavocv2/static/media/Section1MaskedGroup.46835f1db5113819e199.png",
+    "static/media/archivo.regular.ttf": "/pavocv2/static/media/archivo.regular.966d9d4d45a09d520c4f.ttf",
+    "static/media/Swiss 721 Italic.otf": "/pavocv2/static/media/Swiss 721 Italic.52c29e59940d7e7c21fe.otf",
+    "static/media/Swiss 721 Medium.otf": "/pavocv2/static/media/Swiss 721 Medium.a066d4dd7fe1e38b07bf.otf",
+    "static/media/Swiss 721 Bold.otf": "/pavocv2/static/media/Swiss 721 Bold.9d81d90475ea74614df9.otf",
+    "static/media/Swiss 721 Light.otf": "/pavocv2/static/media/Swiss 721 Light.c974247f3089f8ccf143.otf",
+    "static/media/2.png": "/pavocv2/static/media/2.14b2370a9949e023702a.png",
+    "index.html": "/pavocv2/index.html",
+    "main.46bb28b0.css.map": "/pavocv2/static/css/main.46bb28b0.css.map",
+    "main.3bcb27b8.js.map": "/pavocv2/static/js/main.3bcb27b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46bb28b0.css",
+    "static/js/main.3bcb27b8.js"
+  ]
+}
